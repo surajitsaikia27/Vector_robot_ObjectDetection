@@ -10,7 +10,7 @@ import anki_vector.camera
 
 robot = anki_vector.Robot(anki_vector.util.parse_command_args().serial)#, enable_camera_feed=True)
 screen_dimensions = anki_vector.screen.SCREEN_WIDTH, anki_vector.screen.SCREEN_HEIGHT
-image_file = "detect.jpg"
+image = "detect.jpg"
 
 
 def detect_labels(image_path):
@@ -77,12 +77,12 @@ def detect():
     vector_speaks('Hey, I am going to find some objects, and will tell you what I found')
     vector_speaks('I will take a photo of this environment, and  will analyze using my deep learning based brain')
     time.sleep(1)
-    save_image(image_file)
-    display_image(image_file)
+    save_image(image)
+    display_image(image)
 
     vector_speaks('Wait a minute. I am trying to find some objects, I will let you know now.')
-    text = detect_labels(image_file)
-    display_image(image_file)
+    text = detect_labels(image)
+    display_image(image)
     vector_speaks('I can detect {}'.format(text))
 
     close_camera()
