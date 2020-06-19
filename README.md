@@ -20,7 +20,7 @@ To authenticate with the robot, type the following into the Terminal window.
 Please note that the robot and your computer should be connected to the same network.
 Now, you will be asked to enter your robot’s name, ip address and serial number, which you can find in the robot itself. Also, You will be asked for your Anki login and password which you used to set up your Vector.
 
-IF you see “SUCCESS!” then your robot is connected to your computer, and type.
+IF you see “SUCCESS!” then your robot is connected to your computer, and you can run this module by typing.
 
 - python vector_objectDetection.py
 
