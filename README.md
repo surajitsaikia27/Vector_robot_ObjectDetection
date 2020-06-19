@@ -14,7 +14,9 @@ To detect objects, we will be using FasterRCNN which is trained with Google Open
 # Running the Module
 Please clone or download this repository into your local machine, but before that you need to authenticate the vector robot.
 To authenticate with the robot, type the following into the Terminal window. 
+
 - python3 -m anki_vector.configure
+
 Please note that the robot and your computer should be connected to the same network.
 Now, you will be asked to enter your robot’s name, ip address and serial number, which you can find in the robot itself. Also, You will be asked for your Anki login and password which you used to set up your Vector.
 
