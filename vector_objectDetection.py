@@ -2,18 +2,18 @@
 
 """Making Vector to detect 600 objects from Google OpenImageDataset"""
 import time
+import anki_vector
 from main.model.detect_odr import object_detection
 from PIL import Image
-import anki_vector
 from anki_vector.util import degrees
 import anki_vector.camera
 
 robot = anki_vector.Robot(anki_vector.util.parse_command_args().serial)#, enable_camera_feed=True)
 screen_dimensions = anki_vector.screen.SCREEN_WIDTH, anki_vector.screen.SCREEN_HEIGHT
-image = "detect.jpg"
+image_name = "detect.jpg"
 
 
-def detect_labels(image_path):
+def get_classnames(image_path):
     """
     This function calls the object detection library to detect 600 objects
     :param image_path:
@@ -77,12 +77,12 @@ def detect():
     vector_speaks('Hey, I am going to find some objects, and will tell you what I found')
     vector_speaks('I will take a photo of this environment, and  will analyze using my deep learning based brain')
     time.sleep(1)
-    save_image(image)
-    display_image(image)
+    save_image(image_name)
+    display_image(image_name)
 
     vector_speaks('Wait a minute. I am trying to find some objects, I will let you know now.')
-    text = detect_labels(image)
-    display_image(image)
+    text = get_classnames(image_name)
+    display_image(image_name)
     vector_speaks('I can detect {}'.format(text))
 
     close_camera()
