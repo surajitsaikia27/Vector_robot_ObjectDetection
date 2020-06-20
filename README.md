@@ -11,7 +11,7 @@ To detect objects, we will be using FasterRCNN which is trained with Google Open
  - Keras 2.2.4
  - OpenCV 3
 
-Please download  the object detectio module from here, https://drive.google.com/file/d/113-3Kud0Ner2NR4ZiSOnQUOq5C4G16CC/view?usp=sharing and put it inside the data folder.
+Please download  the object detection module from here, https://drive.google.com/file/d/113-3Kud0Ner2NR4ZiSOnQUOq5C4G16CC/view?usp=sharing and put it inside the data folder.
 
 # Running the Module
 Please clone or download this repository into your local machine, but before that you need to authenticate the vector robot.
