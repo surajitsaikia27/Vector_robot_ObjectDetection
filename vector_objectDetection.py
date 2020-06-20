@@ -3,7 +3,7 @@
 """Making Vector to detect 600 objects from Google OpenImageDataset"""
 import time
 import anki_vector
-from main.model.detect_odr import object_detection
+from model.detect_odr import object_detection
 from PIL import Image
 from anki_vector.util import degrees
 import anki_vector.camera
