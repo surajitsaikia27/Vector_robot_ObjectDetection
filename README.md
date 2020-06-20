@@ -1,7 +1,9 @@
 
 # Programming Vector to recognize objects using Deep learning
 In this program, we will see how to use an object detector with the Vector SDK to enable the robot to detect around 600 objects.
+
 <img src="https://github.com/surajitsaikia27/Vector_robot_ObjectDetection/blob/master/vector.PNG" />
+
 # Vector SDK
 The Vector SDK gives access to various capabilities of this robot, such as computer vision, Artificial intelligence, navigation and et. You can design your own programs to make this robot pet imbibed with AI capabilities. Before running this module, install the vector SDK by following the information in this page: https://developer.anki.com/vector/docs/index.html.  
 - python3 -m pip install --user anki_vector
@@ -27,4 +29,4 @@ IF you see “SUCCESS!” then your robot is connected to your computer, and you
 
 - python vector_objectDetection.py
 
-Now, the robot will grab a picture and will analyze the image to discover what all objects are present in the image using a deep learning based object detection algorithm.
+Now, the robot will grab a picture and will analyze the image to discover what all objects are present  using a deep learning based object detection algorithm.
