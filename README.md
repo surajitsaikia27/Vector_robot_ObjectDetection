@@ -1,4 +1,4 @@
-<img src="https://github.com/surajitsaikia27/Vector_robot_ObjectDetection/blob/master/Slide1.PNG" width="480"/>
+<img src="https://github.com/surajitsaikia27/Vector_robot_ObjectDetection/blob/master/vector.PNG" />
 
 # Programming Vector to recognize objects using Deep learning
 In this program, we will see how to use an object detector with the Vector SDK to enable the robot to detect around 600 objects.
