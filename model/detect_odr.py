@@ -50,7 +50,7 @@ class_list = ['Tortoise', 'Container', 'Magpie', 'Sea turtle', 'Football', 'Ambu
  'Sandwich', 'Shrimp', 'Sewing machine', 'Binoculars', 'Rays and skates', 'Ipod', 'Accordion', 'Willow', 'Crab',
  'Crown', 'Seahorse', 'Perfume', 'Alpaca', 'Taxi', 'Canoe', 'Remote control', 'Wheelchair', 'Rugby ball', 'Armadillo',
  'Maracas', 'Helmet']
-model_path = "./main/data"
+model_path = "./data"
 frozen_pb_file = os.path.join(model_path, 'frozen_inference_graph.pb')
 f = tf.gfile.FastGFile(frozen_pb_file, 'rb')
 graph_def = tf.GraphDef()
