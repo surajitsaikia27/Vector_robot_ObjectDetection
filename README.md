@@ -17,7 +17,7 @@ To detect objects, we will be using FasterRCNN which is trained with Google Open
 To run this module, please clone this repository and download the pre-trained model from here, https://drive.google.com/file/d/113-3Kud0Ner2NR4ZiSOnQUOq5C4G16CC/view?usp=sharing, .Next, put the downloaded model inside the data folder.
 
 # Running the Module
-Please clone or download this repository into your local machine, but before that you need to authenticate the vector robot.
+Before running the module, you need to authenticate the vector robot.
 To authenticate with the robot, type the following into the Terminal window. 
 
 - python3 -m anki_vector.configure
